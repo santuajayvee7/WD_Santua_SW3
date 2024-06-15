@@ -137,12 +137,11 @@ a button {
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
 }
 
-.design-4 .logo-4 {
-    font-size: 30px;
-    font-weight: bold;
-    color: rgb(148, 118, 54); 
-    letter-spacing: 1px;
-    cursor: pointer;
+.design-4 .logo-4 img {
+     
+        width: 80px; /* Adjust the width as needed */
+        height: auto; /* Maintain aspect ratio */
+        
 }
 
 .navbar-4 {

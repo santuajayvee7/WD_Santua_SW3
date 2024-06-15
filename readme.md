@@ -6,10 +6,10 @@
 <div align="center">
   <a href="https://github.com/zyx-0314/">
   <!-- TODO: If you want to add logo or banner you can add it here -->
-    <img src="./assets/img/nyebe_white.png" alt="Nyebe" width="130" height="100">
+    <img src="./assets/img/snigger.png" alt="Nyebe" width="130" height="100">
   </a>
 <!-- TODO: Change Title to the name of the title of your Project -->
-  <h3 align="center">Title</h3>
+  <h3 align="center">Seatwork 3 by Jayvee Malabon Thugs</h3>
 </div>
 <!-- TODO: Make a short description -->
 <div align="center">
@@ -60,10 +60,10 @@
 Description of the project in details.
 
 Guiding Question:
-- What is the project
-- Whats the purpose
-- What are key components
-- What technology used and how it is used
+- Making different designs of static and animated headers.
+- This is for demonstrating skills in HTML and CSS with Multiple Pages, Effects and Container Manipulations. 
+- HTML structure, CSS styling, Key Functionalites
+- HTML and CSS are fundamental technologies for web development. They work together to structure and style web content, creating visually appealing and functional web pages.
 
 ### Key Components
 <!-- TODO: List of Key Components -->

@@ -51,41 +51,47 @@
 
 
 
+
+
 /* Design 2 Styles */
-.design-two {
-    background-color: #e9e634d5;
-    padding: 20px 80px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.wrapper {
+    display: flex; /* Use flexbox for layout */
 }
 
-.logo-two {
-    width: 100px;
-    height: auto;
-    background-image: url('your_logo_image_url.png');
-    background-size: contain;
-    background-repeat: no-repeat;
+.header {
+    background-color: #4CAF50; /* Header background color */
+    color: #fff; /* Text color for header */
+    padding: 20px;
+    width: 200px; /* Width of the vertical header */
+    text-align: center;
+    border-top-left-radius: 8px; /* Rounded corner top-left */
+    border-bottom-left-radius: 8px; /* Rounded corner bottom-left */
 }
 
-.navbar-2 {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
+.header h1 {
+    margin-bottom: 10px;
+    font-size: 24px; /* Example font size */
 }
 
-.navbar-2 a {
-    font-size: 18px;
-    font-family: "Abril Fatface", sans-serif;
-    color: #fff;
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    margin-bottom: 10px;
+}
+
+nav ul li a {
     text-decoration: none;
-    margin-left: 20px;
+    color: #fff; /* Text color for links */
+    display: block;
+    padding: 10px;
+    transition: background-color 0.3s ease; /* Smooth background color transition */
 }
-
 
 /* Design 3 */
-li,
-a button {
+li, a button {
     font-family: "Montserrat", sans-serif;
     font-weight: 500;
     font-size: 15px;
@@ -256,41 +262,11 @@ a button {
     background-color: #eee;
 }
 
-.design-two {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 80px;
-    background-color: #fab473; /* Example background color */
-    margin-bottom: 20px;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
-}
+/* Design 2 */
 
-.design-two .logo-two {
-    width: 100px;
-    height: auto;
-    background-image: url('your_logo_image_url.png');
-    background-size: contain;
-    background-repeat: no-repeat;
-}
 
-.navbar-2 {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-}
 
-.navbar-2 a {
-    font-size: 18px;
-    font-family: "Abril Fatface", sans-serif;
-    color: #fff;
-    text-decoration: none;
-    margin-left: 20px;
-}
-
-.navbar-2 a:hover {
-    text-decoration: underline;
-}
+     /* Design 3 */
 
 .design-3 {
     display: flex;

@@ -53,40 +53,46 @@
 
 /* Design 2 Styles */
 .wrapper-static {
-    display: flex; 
-}
-
-.header-static {
-    background-color: #4CAF50; 
-    color: #fff; 
+    display: flex;
+  }
+  
+  .header-static {
+    background-color: #4CAF50;
+    color: #fff;
     padding: 20px;
-    width: 200px; 
+    width: 200px;
     text-align: center;
-    border-top-left-radius: 8px; 
-    border-bottom-left-radius: 8px; 
-}
-
-.header h1 {
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+  }
+  
+  .header-static h1 {
     margin-bottom: 10px;
-    font-size: 24px; 
-}
-
-nav ul {
+    font-size: 24px;
+  }
+  
+  nav ul {
     list-style-type: none;
     padding: 0;
-}
-
-nav ul li {
+  }
+  
+  nav ul li {
     margin-bottom: 10px;
-}
-
-nav ul li a {
+  }
+  
+  nav ul li a {
     text-decoration: none;
-    color: #fff; 
+    color: #fff;
     display: block;
     padding: 10px;
-    transition: background-color 0.3s ease; 
-}
+  }
+  
+  .logo-2 {
+    width: 100px; 
+    height: auto;
+    animation: none;
+    transition: none;
+  }
 
 /* Design 3 */
 li, a button {

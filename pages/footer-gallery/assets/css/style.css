@@ -132,5 +132,77 @@ body {
   color:#333;
 }
 
+/* <------------------Designed 3 ------------------> */
 
+.design-3 {
+  background: #000; 
+  padding: 10px 0; 
+  text-align: center; 
+}
+
+/* Footer-3 styles */
+.footer-3 {
+  width: 100%;
+  padding: 1px; 
+}
+
+/* Footer social icons styles */
+.footer-social {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px; 
+}
+
+.footer-social a {
+  text-decoration: none;
+  padding: 8px;
+  background-color: rgb(0, 47, 90);
+  margin: 5px;
+  border-radius: 50%;
+}
+
+
+.footer-social a i {
+  font-size: 1.2rem; 
+  color: rgb(207, 189, 226); 
+}
+
+/* Navbar-footer styles */
+.navbar-footer {
+  display: flex;
+  justify-content: center;
+  
+}
+
+.navbar-footer ul {
+  list-style-type: none; 
+}
+
+.navbar-footer ul li {
+  display: inline-block; /* Display list items horizontally */
+  margin: 0 8px; /* Smaller margin */
+}
+
+.navbar-footer ul li a {
+  text-decoration: none;
+  color: rgb(207, 189, 226);
+  transition: color 0.3s ease; /* Smooth color transition */
+}
+
+
+/* Footer bottom styles */
+.footer-bottom {
+  margin-top: 10px; /* Smaller margin */
+}
+
+.footer-bottom p {
+  font-size: 0.8rem;
+  color:rgb(207, 189, 226);
+}
+
+.footer-bottom .squidward {
+  font-style: italic; 
+  font-weight: bold; 
+  color:rgb(207, 189, 226);
+}
   

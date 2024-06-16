@@ -154,7 +154,7 @@ li, a button {
 .design-4 .logo-4 img {
     max-width: 100px;
     vertical-align: middle; 
-    opacity: 1; /* Ensure logo is visible */
+    opacity: 1; 
 }
 
 .design-4 nav ul {
@@ -304,7 +304,7 @@ li, a button {
 }
 
 .logo:hover {
-    transform: rotate(360deg); /* Rotate Plankton 360 degrees on hover */
+    transform: rotate(360deg); 
 }
 
 .navbar-2 ul {
@@ -435,7 +435,7 @@ li, a button {
     max-width: 100px;
     opacity: 0;
     transform: translateX(-100%);
-    transition: opacity 1s ease, transform 1s ease; /* Smooth transitions for opacity and transform */
+    transition: opacity 1s ease, transform 1s ease; 
 }
 
 .design-4-animated :hover .logo-4-animated img {

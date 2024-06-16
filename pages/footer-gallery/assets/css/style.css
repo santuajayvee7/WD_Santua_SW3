@@ -18,25 +18,119 @@
 
 
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-  }
-  
-  section {
-    background-color: #333;
-    color: #fff;
-    padding: 20px;      
-    text-align: center;
-  }
-  
-  section h2 {
-    margin: 0;
-    font-size: 1.5em;
-  }
-  
-  section p {
-    margin: 5px 0 0;
-    font-size: 0.8em;
-  }
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.footer-1 {
+  background-color: #ffffff;
+  color: #302d2d;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.footer-content {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start; 
+}
+
+.footer-logo {
+  max-width: 100px; 
+  margin-right: 20px; 
+}
+
+.footer-text {
+  flex: 1; 
+}
+
+.footer-1 h2 {
+  margin: 0;
+  font-size: 1.5em;
+}
+
+.footer-1 p {
+  margin: 5px 0 0;
+  font-size: 0.8em;
+}
+
+.footer-1 .social-icons {
+  margin-top: 10px;
+}
+
+.footer-1 .social-icons a {
+  color: #302d2d;
+  font-size: 1.2em;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+/* <-----------------Design 2----------------------> */
+
+.footer-2 {
+  background-color: #4CAF50;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+  position: relative; /* Ensure relative positioning for absolute elements */
+}
+
+
+.footer-2-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.footer-2-content img {
+  max-width: 100px;
+  height: auto;
+}
+
+.footer-2-text {
+  flex: 1;
+  margin: 0 20px;
+}
+
+.footer-2-text h2 {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.footer-2-text p {
+  color: #666;
+}
+
+
+.section-content {
+  text-align: center;
+}
+
+.section-content h2 {
+  font-size: 1.8rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.section-content p {
+  color: #666;
+}
+
+
+.footer-2-icons {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  width: 100%;
+  color:#333;
+}
+
+
   

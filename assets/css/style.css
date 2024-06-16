@@ -10,9 +10,16 @@ body {
 }
 .container {
   text-align: center;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  color: #fff;
 }
+
+.container h1, h2 {
+  color:rgb(215, 233, 58);
+}
+
 .buttons {
-  margin-top: 20px;
+  margin-top: 20px; 
 }
 .btn {
   text-decoration: none;
@@ -20,10 +27,10 @@ body {
   margin: 5px;
   background-color: #fffb0b;
   color: rgb(22, 63, 247);
-  border-radius: 5px;
+  border-radius: 15px;
 }
 .btn:hover {
-  background-color: #d66fc9;
+  background-color: #857df8;
 }
 
 & .kirby {

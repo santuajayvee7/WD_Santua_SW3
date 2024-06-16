@@ -422,6 +422,7 @@ li, a button {
 
 .design-4-animated nav ul li a:hover {
     background-color: #e45e8b; 
+    border-radius: 10px;
 }
 
 .design-4-animated .logo-4-animated img {
